@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Etch-a-Sketch</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Etch-a-Sketch</h1>
+		<h3>Courtesy of JS and jQuery</h3>
+		<p>Designed and Implemented by: Matt Chastain</p>
+		<form id="size">
+			<label for="sizeInput">Grid Size:</label>
+			<input type="number" min="4" max="200" required id="sizeInput" autofocus><br/><br/>
+			<input type="submit">
+		</form>
+	</header>
+	<section class="grid-control">
+		<button id="clearGrid">Shake It Up!</button>
+		<button id="restart">Restart</button>
+	</section>
+	<table id="grid"></table>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="app.js"></script>
+
+</body>
+</html>
